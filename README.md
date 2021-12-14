@@ -1,4 +1,4 @@
-# [Master-Games Web](http://master-games.eu/)
+# [Master-Games Web](https://master-games.eu/)
 
 ## Installation
 
