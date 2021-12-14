@@ -10,14 +10,15 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Build and deploy
 ```
 npm run build
 ```
-
-### Lints and fixes files
 ```
-npm run lint
+npm install -g serve
+```
+```
+serve -s dist
 ```
 
 ### Customize configuration
