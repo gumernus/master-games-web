@@ -1,0 +1,1 @@
+screen -AmdS web serve -s -l 8088 dist
