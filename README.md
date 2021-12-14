@@ -1,4 +1,4 @@
-# master-games-web
+# Master Games Website
 
 ## Project setup
 ```
