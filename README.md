@@ -4,14 +4,17 @@
 
 Nejdříve musíme stáhnout kód z této repository. Na instalaci všech potřebných věcí je potřeba npm (node package manager) který je v NodeJs. Tudíž potřebjeme nainstalovat NodeJs. 
 
-Nainstalujeme veškeré věci potřebné pro to aby web běžel.
+Pullneme z githubu nejnovější verzi (TOTO NENÍ NUTNÉ. MŮŽETE HO JEDNODUŠE STÁHNOUT)
+```
+git pull origin main
+```
 
+Nainstalujeme veškeré věci potřebné pro to aby web běžel.
 ```
 npm install
 ```
 
 Nainstalujeme serveJS pro run webu.
-
 ```
 npm install serve -g
 ```
