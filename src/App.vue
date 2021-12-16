@@ -1,30 +1,55 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+<Navbar></Navbar>
 </template>
+
+<script>
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "@/components/Navbar.vue"
+
+export default {
+  name: "App",
+  components: {
+    Navbar
+  },
+};
+</script>
 
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
+.btn-primary{
+  color:white;
+  background: #0077b3; 
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.btn-primary:hover{
+  background: #0098b3; 
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+.btn-secondary{
+  color:black;
+  background: #ebebeb; 
 }
+
+.btn-secondary:hover{
+  color:black;
+  background: #ffffff; 
+}
+
+.btn :focus{
+  box-shadow: none !important;
+}
+
+.form-control:focus{
+  box-shadow: none !important;
+}
+
+a:hover{
+  text-decoration: underline !important;
+}
+
 </style>

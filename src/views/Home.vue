@@ -1,18 +1,33 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-  </div>
+<Hero></Hero>
+<Footer></Footer>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
 
-export default defineComponent({
-  name: 'Home',
-  components: {
-    HelloWorld,
-  },
-});
+import Hero from "@/components/Hero.vue"
+import Footer from "@/components/Footer.vue"
+
+export default {
+    name: 'Home',
+    components: {
+      Hero,
+      Footer
+    },
+    watch: {
+        $route: {
+            immediate: true,
+            handler(to:any, from:any) {
+                document.title = 'MasterGames | Home';
+            }
+        },
+    }
+};
+
 </script>
+
+<style scoped>
+a:hover{
+    text-decoration: none !important;
+}
+</style>
