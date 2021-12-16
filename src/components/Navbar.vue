@@ -30,6 +30,8 @@ export default defineComponent({
 </script>
 
 <style scoped>
+
+
 .navbar {
     padding: 10px;
     font-size: 17px;
@@ -41,5 +43,16 @@ a{
 a.router-link-exact-active {
     font-weight: bold;
 }
+
+.navbar-light .navbar-toggler{
+  border: none;
+  color: black;
+}
+
+.navbar-toggler:focus{
+  border: none !important;
+  box-shadow: none !important;
+}
+
 </style>
 

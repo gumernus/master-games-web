@@ -1,4 +1,5 @@
 <template>
+<div style="padding-bottom: 70px;"></div>
 <Navbar></Navbar>
 </template>
 
@@ -20,32 +21,32 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.form-control:focus{
+  box-shadow: none !important;
+}
+
+.btn-primary:focus, .btn-secondary:focus{
+  box-shadow: none !important;
+}
 
 .btn-primary{
-  color:white;
-  background: #0077b3; 
+  color:white !important;
+  background: #0077b3 !important; 
 }
 
 .btn-primary:hover{
-  background: #0098b3; 
+  color:white !important;
+  background: #0098b3 !important; 
 }
 
 .btn-secondary{
-  color:black;
-  background: #ebebeb; 
+  color:black !important;
+  background: #ebebeb !important; 
 }
 
 .btn-secondary:hover{
-  color:black;
-  background: #ffffff; 
-}
-
-.btn :focus{
-  box-shadow: none !important;
-}
-
-.form-control:focus{
-  box-shadow: none !important;
+  color:black !important;
+  background: #ffffff !important; 
 }
 
 a:hover{

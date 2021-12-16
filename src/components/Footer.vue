@@ -78,13 +78,13 @@
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-dark">Discord</a>
+                <a href="https://discord.master-games.eu/" class="text-dark">Discord</a>
               </li>
               <li>
-                <a href="#!" class="text-dark">Teamspeak</a>
+                <a href="http://invite.teamspeak.com/ts3.master-games.eu" class="text-dark">Teamspeak</a>
               </li>
               <li>
-                <a href="#!" class="text-dark">Instaram</a>
+                <a href="https://www.instagram.com/mastergames.eu/" class="text-dark">Instagram</a>
               </li>
             </ul>
           </div>
@@ -152,5 +152,7 @@ export default defineComponent({
 h1{
     color:#ebe9e9
 }
+
+
 </style>
 
