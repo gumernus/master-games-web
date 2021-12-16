@@ -10,7 +10,7 @@ Nainstalujeme veškeré věci potřebné pro to aby web běžel.
 npm install
 ```
 
-Nainstalujeme serveJs pro run webu.
+Nainstalujeme serveJS pro run webu.
 
 ```
 npm install serve -g
@@ -20,6 +20,12 @@ Nainstalujeme pm2 pro deploy.
 ```
 npm install pm2 -g
 ```
+
+Nainstalujeme bootstrap pro základ UI.
+```
+npm install bootstrap -g
+```
+
 
 Nyní by vše mělo být nainstalované a připravené k deploymentu.
 
