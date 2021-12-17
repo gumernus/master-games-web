@@ -14,6 +14,29 @@
         <li class="nav-item">
           <a class="nav-link"><router-link to="/novinky">Novinky</router-link></a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link"><router-link to="/store">Store</router-link></a>
+        </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Pravidla
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li class="nav-item">
+          <a class="dropdown-item"><router-link to="/pravidla/minecraft">Minecraft</router-link></a>
+        </li>
+        <li class="nav-item">
+          <a class="dropdown-item"><router-link to="/pravidla/discord">Discord</router-link></a>
+        </li>
+        <li class="nav-item">
+          <a class="dropdown-item"><router-link to="/pravidla/teamspeak">Teamspeak</router-link></a>
+        </li>
+        <li class="nav-item">
+          <a class="dropdown-item"><router-link to="/pravidla/GDPR">GDPR</router-link></a>
+        </li>
+        </div>
+      </li>
+
       </ul>
     </div>
   </div>
@@ -35,11 +58,28 @@ export default defineComponent({
 .navbar {
     padding: 10px;
     font-size: 17px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: #0d6efd !important;
+}
+
+.dropdown-item{
+  color: #0d6efd !important;
+}
+.dropdown-item.active, .dropdown-item:active{
+  background: white;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+  background: white;
 }
 
 a{
     text-decoration: none;
 }
+
+
 a.router-link-exact-active {
     font-weight: bold;
 }

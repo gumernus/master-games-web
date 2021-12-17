@@ -149,10 +149,8 @@ export default defineComponent({
     text-decoration: none;
 }
 
-h1{
-    color:#ebe9e9
+footer{
+background-color: #f8f9fa;
 }
-
-
 </style>
 

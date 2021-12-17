@@ -1,45 +1,27 @@
 <template>
+<Head headers="Novinky"></Head>
 
-<ul class="list-unstyled">
-  <li class="media">
-    <img src="../assets/server-icon.png" class="mr-3" alt="../assets/server-icon.png">
-    <div class="media-body">
-      <h5 class="mt-0 mb-1">List-based media object</h5>
-      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-    </div>
-  </li>
-  <li class="media my-4">
-    <img src="../assets/server-icon.png" class="mr-3" alt="../assets/server-icon.png">
-    <div class="media-body">
-      <h5 class="mt-0 mb-1">List-based media object</h5>
-      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-    </div>
-  </li>
-  <li class="media">
-    <img src="../assets/server-icon.png" class="mr-3" alt="../assets/server-icon.png">
-    <div class="media-body">
-      <h5 class="mt-0 mb-1">List-based media object</h5>
-      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-    </div>
-  </li>
-</ul>
-
+<Article headers="Otevření serveru pro veřejnost" texts="Vážení hráči🙋‍♂‍, Vážené hráčky🙋‍♀‍,
+dne 11.12.2021 v sobotu se otevře náš server pro veřejnost. Děkujeme Vám, že jste tak dlouho vyčkali a doufáme, že si hraní na našem serveru užijete."></Article>
   <Footer></Footer>
 </template>
-
 <script lang="ts">
+import Head from "@/components/Head.vue"
+import Article from "@/components/Article.vue"
 import Footer from "@/components/Footer.vue";
 
 export default {
   name: "Novinky",
   components: {
+    Head,
+    Article,
     Footer,
   },
   watch: {
     $route: {
       immediate: true,
       handler(to: any, from: AnalyserNode) {
-        document.title = "MasterGames | About";
+        document.title = "MasterGames | Novinky";
       },
     },
   },
