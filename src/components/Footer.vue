@@ -111,7 +111,14 @@
                 <a
                   href="https://czech-craft.eu/server/master-games-eu/"
                   class="text-dark"
-                  >Czech craft</a
+                  >Czechcraft</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://nicelist.eu/server/mastergames"
+                  class="text-dark"
+                  >Nicelist</a
                 >
               </li>
             </ul>
