@@ -32,12 +32,12 @@ export default defineComponent({
     background-image: url("../assets/lobby.png");
 }
 .container-fluid{
-    height: 100vh;
+    height: 92vh;
     color:aliceblue;
 }
 
 .display-5{
-    padding-top: 150px;
+    padding-top: 120px;
 }
 </style>
 
