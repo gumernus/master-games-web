@@ -33,8 +33,17 @@ white-space: pre-wrap;
 h3{ 
     font-weight: bold;
 }
+
 p{
     width: 80%;
 }
+
+@media only screen and (max-width: 600px) {
+  p{
+    width: 100%;
+}
+}
+
+
 </style>
 
