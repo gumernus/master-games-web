@@ -17,6 +17,9 @@
         <li class="nav-item">
           <a class="nav-link"><router-link to="/store">Store</router-link></a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link"><router-link to="/kontakty">Kontakty</router-link></a>
+        </li>
         <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Pravidla
@@ -36,7 +39,22 @@
         </li>
         </div>
       </li>
-
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Nábory
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li class="nav-item">
+          <a class="dropdown-item"><router-link to="/nábory/helper">Helper</router-link></a>
+        </li>
+        <li class="nav-item">
+          <a class="dropdown-item"><router-link to="/nábory/builder">Builder</router-link></a>
+        </li>
+        <li class="nav-item">
+          <a class="dropdown-item"><router-link to="/nábory/developer">Developer</router-link></a>
+        </li>
+        </div>
+      </li>
       </ul>
     </div>
   </div>
