@@ -29,7 +29,8 @@ export default defineComponent({
   position: absolute;
   width: 100%;
   height: 100%;
-    background-image: url("../assets/lobby.png");
+  background-image: url("../assets/lobby.png");
+  background-position: center;
 }
 .container-fluid{
     height: 92vh;
