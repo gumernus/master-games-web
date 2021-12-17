@@ -96,7 +96,7 @@
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="https://store.master-game.eu/" class="text-dark"
+                <a href="https://panel.batcore.eu/shop/MG/Credits" class="text-dark"
                   >Store</a
                 >
               </li>
