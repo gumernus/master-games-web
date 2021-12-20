@@ -29,7 +29,7 @@ export default defineComponent({
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("../assets/lobby.png");
+  background-image: url("../assets/146687913-a17b298e-9323-4851-b18c-e0292971e901.jpg");
   background-position: center;
 }
 .container-fluid{
