@@ -75,9 +75,7 @@ export default {
   max-width: 260px !important;
   border-radius: 20px;
   margin: 0px;
-  padding: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 50px;
   background-color: #e9ecef;
 }
 
