@@ -74,6 +74,7 @@ export default defineComponent({
 
 
 .navbar {
+    background-color: #fafafa !important;
     padding: 10px;
     font-size: 17px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
