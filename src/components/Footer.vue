@@ -157,7 +157,7 @@ export default defineComponent({
 }
 
 footer{
-background-color: #f8f9fa;
+background-color: #e9ecef;
 }
 </style>
 
