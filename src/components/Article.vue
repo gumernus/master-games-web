@@ -22,12 +22,11 @@ export default defineComponent({
 
 <style scoped>
 .article-box{
- box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 17px;
 border-radius: 20px;
 margin: 50px;
 padding: 30px;
 padding-left: 50px;
-background-color: #f8f9fa;
+background-color: #e9ecef;
 white-space: pre-wrap;
 }
 h3{ 
