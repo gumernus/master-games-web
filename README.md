@@ -20,7 +20,7 @@ Pro to aby jsme web mohli rozjet jsou potřeba tyto commandy.
 
 ### Run Deployment
 ```
-npm build
+npm run build
 ```
 `
 pm2 serve -s -l 443 dist
