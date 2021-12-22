@@ -35,6 +35,11 @@ pm2 serve -s -l 443 dist
 npm run serve
 ```
 
-### Pm2 commands
+## Aktualizovat kód
+```
+git pull origin main
+```
+
+## Pm2 commands
 
 Veškeré pm2 commandy jsou [zde](https://www.npmjs.com/package/pm2).
