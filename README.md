@@ -1,57 +1,39 @@
 # [Master-Games Web](https://master-games.eu/)
 
-## Installation
+## Instalace
 
-Nejdříve musíme stáhnout kód z této repository. Na instalaci všech potřebných věcí je potřeba npm (node package manager) který je v NodeJs. Tudíž potřebjeme nainstalovat NodeJs. 
+Nejdříve musíme stáhnout kód z této repository. Na instalaci všech potřebných věcí je potřeba npm (node package manager) který je v NodeJs. Tudíž potřebjeme nainstalovat NodeJs a samozřejmě stáhnout či pullnou celý projekt.
 
-Pullneme z githubu nejnovější verzi (TOTO NENÍ NUTNÉ. MŮŽETE HO JEDNODUŠE STÁHNOUT)
-```
-git pull origin main
-```
-
-Nainstalujeme veškeré věci potřebné pro to aby web běžel.
+### Instalace pro Deploy
 ```
 npm install
 ```
 
-Nainstalujeme serveJS pro run webu.
+### Instalace pro Development
 ```
-npm install serve -g
-```
-
-Nainstalujeme pm2 pro deploy.
-```
-npm install pm2 -g
+npm install --save-dev
 ```
 
-Nainstalujeme bootstrap pro základ UI.
+## Run
+
+Pro to aby jsme web mohli rozjet jsou potřeba tyto commandy.
+
+### Run Deployment
 ```
-npm install bootstrap -g
+npm build
 ```
-
-
-Nyní by vše mělo být nainstalované a připravené k deploymentu.
-
-## Deployment
-
-Nejdříve musíme udělat produkční verzi webu.
-```
-npm run build
-```
-
-### Nyní máme 2 možnosti jak deploynout web. Jednu přes skript a druhou přes pm2.
-
-Pm2 verze deploye.
-```
+`
 pm2 serve -s -l 443 dist
-```
-
-Script verze deploye.
-```
+` 
+ / 
+`
 ./web.sh
+`
+
+### Run Development
 ```
-
-
+npm run serve
+```
 
 ### Pm2 commands
 
