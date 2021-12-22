@@ -34,8 +34,6 @@
     "serve": "^13.0.2",
     "typescript": "~4.1.5"
   },
-  "description": "## Installation",
-  "main": ".eslintrc.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gumernus/master-games-web.git"
