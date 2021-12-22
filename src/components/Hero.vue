@@ -34,7 +34,7 @@ export default defineComponent({
 }
 .container-fluid{
     height: 92vh;
-    color:aliceblue;
+    color: #e9ecef;
 }
 
 .display-5{
