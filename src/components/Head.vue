@@ -1,5 +1,5 @@
 <template>
-<div class="article-box">
+<div class="head-box">
 <h1>{{ header }}</h1>
 </div>
 </template>
@@ -19,7 +19,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.article-box{
+.head-box{
 border-radius: 20px;    
 margin: 50px;
 padding: 30px;
