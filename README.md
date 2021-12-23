@@ -1,6 +1,6 @@
 # [Master-Games Web](https://master-games.eu/)
 
-## Instalace
+## 📦 Instalace
 
 Nejdříve musíme stáhnout kód z této repository. Na instalaci všech potřebných věcí je potřeba npm (node package manager) který je v NodeJs. Tudíž potřebjeme nainstalovat NodeJs a samozřejmě stáhnout či pullnou celý projekt.
 
@@ -14,7 +14,7 @@ npm install
 npm install --save-dev
 ```
 
-## Run
+## ⚙️ Run
 
 Pro to aby jsme web mohli rozjet jsou potřeba tyto commandy.
 
@@ -35,11 +35,11 @@ pm2 serve -s -l 443 dist
 npm run serve
 ```
 
-## Aktualizovat kód
+## ⌛️ Aktualizovat kód
 ```
 git pull origin main
 ```
 
-## Pm2 commands
+## 📄 Pm2 commands
 
 Veškeré pm2 commandy jsou [zde](https://www.npmjs.com/package/pm2).
